@@ -2,49 +2,77 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Website RT 01</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RT 01 RW 05</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1>RT 01 RW 05</h1>
-  <p>Kelurahan Melati, Kecamatan Sejahtera</p>
+<header class="hero">
+  <div class="hero-text">
+    <h1>RT 01 RW 05</h1>
+    <p>Kelurahan Melati · Kecamatan Sejahtera</p>
+    <a href="#pengumuman" class="btn">Lihat Pengumuman</a>
+  </div>
 </header>
 
-<nav>
-  <a href="#beranda">Beranda</a>
+<nav class="navbar">
+  <a href="#profil">Profil</a>
   <a href="#pengurus">Pengurus</a>
   <a href="#pengumuman">Pengumuman</a>
+  <a href="#kegiatan">Kegiatan</a>
   <a href="#kontak">Kontak</a>
 </nav>
 
-<section id="beranda">
-  <h2>Selamat Datang</h2>
-  <p>Website resmi RT 01 sebagai media informasi warga.</p>
+<section id="profil" class="container">
+  <h2>Profil RT</h2>
+  <p>
+    Website resmi RT 01 sebagai media informasi, transparansi,
+    dan komunikasi antar warga.
+  </p>
 </section>
 
-<section id="pengurus">
-  <h2>Struktur Pengurus</h2>
-  <ul>
-    <li>Ketua RT: Bapak Ahmad</li>
-    <li>Sekretaris: Ibu Siti</li>
-    <li>Bendahara: Bapak Budi</li>
-  </ul>
+<section id="pengurus" class="container grid">
+  <h2>Pengurus RT</h2>
+  <div class="card">
+    <h3>Ketua RT</h3>
+    <p>Bapak Ahmad</p>
+  </div>
+  <div class="card">
+    <h3>Sekretaris</h3>
+    <p>Ibu Siti</p>
+  </div>
+  <div class="card">
+    <h3>Bendahara</h3>
+    <p>Bapak Budi</p>
+  </div>
 </section>
 
-<section id="pengumuman">
+<section id="pengumuman" class="container">
   <h2>Pengumuman</h2>
-  <p>Kerja bakti hari Minggu pukul 07.00 WIB.</p>
+  <div class="card">
+    <p>📢 Kerja bakti hari Minggu, pukul 07.00 WIB.</p>
+  </div>
+  <div class="card">
+    <p>💰 Pembayaran iuran RT paling lambat tanggal 10.</p>
+  </div>
 </section>
 
-<section id="kontak">
+<section id="kegiatan" class="container">
+  <h2>Kegiatan Warga</h2>
+  <div class="gallery">
+    <img src="assets/foto-kegiatan.jpg" alt="Kegiatan Warga">
+  </div>
+</section>
+
+<section id="kontak" class="container">
   <h2>Kontak</h2>
-  <p>WA Ketua RT: 08xxxxxxxxxx</p>
+  <p>📞 Ketua RT: 08xxxxxxxxxx</p>
+  <p>📍 Alamat Sekretariat RT</p>
 </section>
 
 <footer>
-  <p>© 2026 RT 01 RW 05</p>
+  <p>© 2026 RT 01 RW 05 · Website Warga</p>
 </footer>
 
 </body>
